@@ -1,0 +1,106 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+    background-color: #D2D2D2;
+    position: relative;
+  }
+.navbar-brand{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+}
+.navbar{
+    position: fixed;
+}
+.time{
+    transition: 300ms ease;
+  }
+.jumbotron{
+    background-image: url(/src/img/banner.png);
+    background-size: cover;
+    height: 780px;
+    position: relative;
+    z-index: 1;
+}
+.jumbotron .container{
+    z-index: 1;
+    position: relative;
+}
+.jumbotron .display-4{
+    color: #4B4941;
+    margin-top: 200px;
+    font-weight: 400;
+}
+.jumbotron .lead{
+    color: #4B4941;
+    font-weight: 400;
+}
+.btn-join-now{
+    font-weight: 500;
+}
+.title{
+    margin-top: 50px;
+    font-size: 30px;
+}
+hr{
+    border: none;
+    height: 5px;
+    color: #4B4941;
+    background-color: #4B4941;
+}
+.embedchannel{
+    margin-top: 50px;
+    text-align: center;
+}
+.embedshop{
+    margin-top: 50px;
+    text-align: center;
+}
+hr.footer{
+    border: none;
+    height: 2px;
+    color: #4B4941;
+    background-color: #4B4941;
+}
+.footerr{
+    margin-top: 100px;
+    text-align: center;
+}
+#return-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #F5CD79;
+    width: 50px;
+    height: 50px;
+    display: block;
+    text-decoration: none;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    display: none;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+  }
+  #return-to-top i {
+    color: #fff;
+    margin: 0;
+    position: relative;
+    left: 16px;
+    top: 13px;
+    font-size: 19px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+  }
+  #return-to-top:hover {
+    background: #F5CD79;
+  }
+  #return-to-top:hover i {
+    color: #fff;
+    top: 5px;
+  }
