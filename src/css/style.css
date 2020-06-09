@@ -123,3 +123,49 @@ p.subspan{
     font-size: 17px;
     font-weight: 500;
 }
+
+.section-card {
+    background: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 1rem 1.5rem;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    display: flex;
+    color: #555555;
+    margin-top: 10px;
+  }
+  .section-card-icon-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1.5rem;
+  }
+
+  .bot span{
+    padding: 5px ;
+    background-color: #7289DA;
+    color: white;
+    border-radius: 5px;
+  }
+  .bot{
+      font-size: 20px;
+      font-weight: 600;
+  }
+
+  .btn-coming {
+    padding: 8px;
+    background-color: #7289DA;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: "Quicksand", sans-serif;
+  }
+  .btn-coming:hover {
+    background-color: #97c6e5;
+    color: #202040;
+    transition: 0.5s;
+    text-decoration: none;
+  }
+  .card-bot{
+      justify-content: center;
+  }
