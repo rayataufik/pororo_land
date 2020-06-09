@@ -40,6 +40,8 @@ body {
 .title{
     margin-top: 50px;
     font-size: 30px;
+    color: #4B4941;
+    font-weight: 600;
 }
 hr{
     border: none;
@@ -48,7 +50,7 @@ hr{
     background-color: #4B4941;
 }
 .embedchannel{
-    margin-top: 50px;
+    margin-top: 30px;
     text-align: center;
 }
 .embedshop{
@@ -104,3 +106,19 @@ hr.footer{
     color: #fff;
     top: 5px;
   }
+
+  .feedback{
+      margin-top: 100px;
+  }
+  h1.display{
+    font-weight: 600;
+    color: #4B4941;
+  }
+  p.dsplay-feedback{
+      font-size: 20px;
+  }
+
+p.subspan{
+    font-size: 17px;
+    font-weight: 500;
+}
