@@ -4,9 +4,9 @@ body {
     position: relative;
   }
 .navbar-brand{
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Sriracha', cursive;
     font-size: 30px;
-    font-weight: 600;
+    color: #4B4941 !important;
 }
 .navbar{
     position: fixed;
@@ -17,9 +17,10 @@ body {
 .jumbotron{
     background-image: url(/src/img/banner.png);
     background-size: cover;
-    height: 780px;
+    height: 900px;
     position: relative;
     z-index: 1;
+    margin-top: -100px;
 }
 .jumbotron .container{
     z-index: 1;
@@ -27,7 +28,7 @@ body {
 }
 .jumbotron .display-4{
     color: #4B4941;
-    margin-top: 200px;
+    margin-top: 300px;
     font-weight: 400;
 }
 .jumbotron .lead{
