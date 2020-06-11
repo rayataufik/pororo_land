@@ -169,3 +169,7 @@ p.subspan{
   .card-bot{
       justify-content: center;
   }
+
+  .form{
+    margin-top: 120px;
+  }
