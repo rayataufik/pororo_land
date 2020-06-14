@@ -24,21 +24,3 @@ $(document).ready(function(){
     }, 500);
   });
 
-
-  var request = new XMLHttpRequest()
-
-  request.open('GET', 'https://discordapp.com/api/guilds/643410260425703456/widget.json', true)
-  request.onload = function() {
-    // Begin accessing JSON data here
-    var data = JSON.parse(this.response)
-  
-    if (request.status >= 200 && request.status < 400) {
-      data.forEach(channels => {
-        console.log(channels.name)
-      })
-    } else {
-      console.log('error')
-    }
-  }
-  
-  request.send()
