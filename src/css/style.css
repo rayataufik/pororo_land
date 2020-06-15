@@ -57,8 +57,7 @@ hr.hro{
     height: 5px;
     color: #4B4941;
     background-color: #4B4941;
-    width: 50%;
-    margin-left: 0px;
+    
 }
 .embedchannel{
     margin-top: 30px;
@@ -213,6 +212,44 @@ p.subspan{
     border-radius: 10px;
     box-shadow: 0 1px 3px rgba(44, 46, 65, .15);
     transition: all .3s ease-in-out;
+  }
+
+  .event-list-judul{
+    text-align: center;
+  }
+  .event-list-judul h2{
+    font-weight: 600;
+    font-style: italic;
+    color: #4B4941;
+  }
+  .event-card{
+    margin-top: -600px;
+    z-index: 1;
+  }
+  .event-card:hover{
+    box-shadow: 0px 2px #888888;
+  }
+  .link-teks{
+    text-decoration: none !important;
+    text-align: center;
+    color: #4B4941;
+  }
+  .link-teks:hover{
+    color: #555555;
+  }
+  .img-valorant{
+    margin-top: 200px;
+  }
+  .des{
+    margin-top: 200px;
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .des span{
+    padding: 5px ;
+    background-color: #7289DA;
+    color: white;
+    border-radius: 5px;
   }
   @media (min-width: 992px) {
 
