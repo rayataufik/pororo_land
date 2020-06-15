@@ -158,6 +158,13 @@ p.subspan{
     color: white;
     border-radius: 5px;
   }
+
+  .subspan span{
+    padding: 5px ;
+    background-color: #FAAE2B;
+    color: #4B4941;
+    border-radius: 5px;
+  }
   .bot{
       font-size: 20px;
       font-weight: 600;
@@ -206,70 +213,6 @@ p.subspan{
     border-radius: 10px;
     box-shadow: 0 1px 3px rgba(44, 46, 65, .15);
     transition: all .3s ease-in-out;
-    
-    header {
-      padding-bottom: 90%;
-      position: relative;
-      border-radius: 10px;
-      overflow: hidden;
-      background-image: url(https://source.unsplash.com/800x400/?food);
-      background-size: cover;
-      background-position: center;
-    }
-    
-    .content {
-      left: 0;
-      width: 100%;
-      background: #fff;
-      border-radius: 10px;
-      padding: 30px 30px 30px;
-      margin-top: -20px;
-      position: relative;
-      transition: all .3s ease-in-out;
-      
-      > * {
-        margin-bottom: 20px;
-        
-        &:last-child {
-          margin-bottom: 0;
-        }
-      }
-      
-      h3 {
-        font-size: 1.6em;
-        font-weight: bold;
-        margin-bottom: 15px;
-      }
-    }
-    
-    .read-more {
-      display: inline-block;
-      text-transform: uppercase;
-      font-weight: bold;
-      font-size: .8em;
-      padding: 10px 20px;
-      background: #f1f1f1;
-      border-radius: 50px;
-      position: absolute;
-      bottom: 30px;
-      left: 30px;
-      z-index: 1;
-      opacity: 0;
-      transform: translateY(30px);
-      transition: all .3s ease-in-out;
-    }
-    
-    &:hover {
-        box-shadow: 0 4px 15px rgba(44, 46, 65, .15);
-      .content {
-        transform: translateY(-50%);
-      }
-      
-      .read-more {
-        opacity: 1;
-        transform: translateY(0);
-        }
-    }
   }
   @media (min-width: 992px) {
 
@@ -289,3 +232,4 @@ p.subspan{
         padding-bottom: 5px;
         margin-bottom: -8px;
     }
+  }
