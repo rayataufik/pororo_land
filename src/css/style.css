@@ -17,7 +17,7 @@ body {
     transition: 300ms ease;
   }
 .jumbotron{
-    background-image: url(/src/img/banner.png);
+    background-image: url(/src/img/banner-min.png);
     background-size: cover;
     height: 900px;
     position: relative;
