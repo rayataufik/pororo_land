@@ -196,7 +196,11 @@ p.subspan{
   }
 
   .stream{
-    margin-top: 130px;
+    margin-top: -740px;
+  }
+
+  .donation{
+    margin-top: 100px;
   }
 
   .card-list{
@@ -255,6 +259,18 @@ p.subspan{
     color: white;
     border-radius: 5px;
   }
+
+  .plyr *:focus {
+    outline: 0;
+}
+.plyr__play-large {
+    cursor: pointer;
+}
+.plyr {
+    border-radius: 6px
+}
+
+
   @media (min-width: 992px) {
 
     
@@ -274,3 +290,15 @@ p.subspan{
         margin-bottom: -8px;
     }
   }
+
+  @media (max-width: 575.98px) { 
+    .stream{
+      margin-top: -700px;
+    }
+    .qr{
+      text-align: center;
+    }
+    .donation{
+      z-index: 1;
+    }
+   }
